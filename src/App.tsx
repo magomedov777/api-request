@@ -11,7 +11,6 @@ type TodosType = {
 
 function App() {
     const [todos, setTodos] = useState<TodosType[]>([])
-
     const fetchFoo = () => {
         fetch('https://jsonplaceholder.typicode.com/todos')
             .then(response => response.json())
