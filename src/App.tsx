@@ -15,15 +15,15 @@ function App() {
         fetch('https://jsonplaceholder.typicode.com/todos')
             .then(response => response.json())
             .then(json => setTodos(json))
-                            }
+    }
     
     useEffect(() => {
         fetchFoo()
-    }, [])
+    }, []);
 
     const showMeTodos = () => {
         fetchFoo()
-    }
+    };
 
     const deleteTodos = () => {
         setTodos([])
