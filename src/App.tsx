@@ -38,7 +38,7 @@ function App() {
                         <li>
                             <span>{el.id}</span>
                             <input type={'checkbox'} checked={el.completed}/>
-                            
+                            <span>{el.title}</span>
                         </li>
                     )
                 })};
