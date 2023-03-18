@@ -41,7 +41,7 @@ function App() {
                             <span>{el.title}</span>
                         </li>
                     )
-                })}
+                })};
             </ul>
         </div>
     );
