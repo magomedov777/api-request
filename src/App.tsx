@@ -43,8 +43,6 @@ function App() {
                         </li>
                     )
                 })}
-
-
             </ul>
         </div>
     );
