@@ -27,7 +27,7 @@ function App() {
 
     const deleteTodos = () => {
         setTodos([])
-    }
+    };
   
     return (
         <div className="App">
@@ -40,7 +40,6 @@ function App() {
                             <span>{el.id}</span>
                             <input type={'checkbox'} checked={el.completed}/>
                             <span>{el.title}</span>
-
                         </li>
                     )
                 })}
