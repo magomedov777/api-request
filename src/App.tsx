@@ -8,6 +8,7 @@ type TodosType = {
   title: string;
   completed: boolean;
 };
+
 function App() {
   const [todos, setTodos] = useState<TodosType[]>([]);
   const fetchFoo = () => {
